@@ -1,0 +1,45 @@
+/* ContactPage.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&family=Nunito:ital,wght@1,1000&display=swap');
+
+.container {
+    /* image 2 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('image2.png');
+    background-position: center;
+
+}
+.container_contact_form {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.data{
+    width :50%;
+    text-align: left !important;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.ContactPage_data__qC_26 {
+    text-align: left;
+}
+.form{
+    width :50%;
+}
+.comman{
+   
+ border : 1px solid blue;
+ display: flex;
+ justify-content: center;
+}
+
+/* p{
+color: #FFF;
+font-size: 30px;
+font-family: "Nunito Sans";
+} */
