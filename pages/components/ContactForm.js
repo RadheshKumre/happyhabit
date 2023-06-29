@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import styles from '../../styles/ContactForm.module.css'
 const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -17,6 +17,7 @@ const ContactForm = () => {
   };
 
   return (
+    <div className={styles.FromBg}>
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name</label>
@@ -52,6 +53,7 @@ const ContactForm = () => {
 
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 };
 
